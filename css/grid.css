@@ -20,7 +20,7 @@
 
 /* Контейнеры с фиксированной шириной */
 .container {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 @media (max-width: 1200px) {

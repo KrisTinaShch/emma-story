@@ -15,21 +15,21 @@
 
 @font-face {
     font-family: 'Helen-Bold';
-    src: url('../fonts/Helen-Bold.otf') format('truetype');
+    src: url('../fonts/Helen-Bold.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helen-Regular';
-    src: url('../fonts/Helen-Regular.otf') format('truetype');
+    src: url('../fonts/Helen-Regular.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helen-Light';
-    src: url('../fonts/Helen-Light.otf') format('truetype');
+    src: url('../fonts/Helen-Light.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -204,6 +204,7 @@ section {
 /* turning point */
 .turning-point p {
     font-style: italic;
+    font-weight: 600;
 }
 
 .change-is-possible .change__subtitle {
@@ -211,7 +212,7 @@ section {
 }
 
 .change-is-possible .change__subtitle h3 {
-    font-size: 15vw;
+    font-size: 12vw;
     text-transform: uppercase;
 }
 
@@ -285,11 +286,11 @@ section {
     }
 
     h2 {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 
     h3 {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
 
     h4 {
@@ -298,7 +299,7 @@ section {
     }
 
     p {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 
     /* hero */
@@ -363,7 +364,7 @@ section {
 
     /* matcha benefits */
     .matcha-benefits .matcha-benefits__list li {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 
     .matcha-benefits .rightside {
@@ -386,13 +387,15 @@ section {
 
     /* matcha ingredients */
     .matcha-ingredients .matcha-ingredients__list li {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 
     .matcha-ingredients__row {
         margin: 70px 0;
     }
-
+    .change-is-possible{
+        margin-top: 200px;
+    }
     .change-is-possible .change__subtitle h3 {
         font-size: 4vw;
     }
@@ -423,7 +426,7 @@ section {
     .offers .offers-button {
         background: #27ca00;
         color: #fff;
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: bold;
         padding: 10px 20px;
         border-radius: 10px;
@@ -441,6 +444,14 @@ section {
     }
     .matcha-ingredients .rightside{
         padding-left: 100px;
+    }
+    .matcha-benefits .underimage-text {
+        margin: 100px auto 0 auto;
+        max-width: 60%;
+        text-align: center;
+    }
+    .matcha-ingredients__title{
+        justify-content: center;
     }
 }
 
