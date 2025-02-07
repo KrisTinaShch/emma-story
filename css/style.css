@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --white-text: #fff;
     --description-text: #919191;
@@ -13,78 +15,47 @@
     --yellow-badge: #65AD59;
 }
 
-@font-face {
-    font-family: 'Helen-Bold';
-    src: url('../fonts/Helen-Bold.woff2') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helen-Regular';
-    src: url('../fonts/Helen-Regular.woff2') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helen-Light';
-    src: url('../fonts/Helen-Light.woff2') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helen-Italic';
-    src: url('../fonts/Helen-Italic.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 h1 {
-    font-family: 'Helen-Regular';
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 9vw;
     line-height: 1.4em;
 }
 
 h2 {
     text-transform: uppercase;
-    font-family: 'Helen-Bold', sans-serif;
     font-size: 8.5vw;
-}
-
-h3 {
-    text-transform: initial;
-    font-size: 6.5vw;
+    font-family: "Oswald", sans-serif;
 }
 
 h3,
 h4,
 h5 {
     line-height: 1.2em;
-    font-family: 'Helen-Regular', sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
 }
-
+h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: initial;
+    font-size: 5.5vw;
+    margin-top: 10px;
+}
 h4 {
     font-size: 1.4em;
+    font-weight: 800;
 }
 
 p {
-    font-family: 'Helen-Light', sans-serif;
     line-height: 1.2em;
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 1em 0;
-    letter-spacing: 0.3px;
 }
 
 body {
     box-sizing: border-box;
-    font-family: 'GilroyLight', sans-serif;
-    -webkit-font-smoothing: antialiased; 
+    font-family: "Roboto", serif;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
@@ -126,10 +97,12 @@ section {
 .hero-banner .hero-rightside h4 {
     margin-top: 0.5em;
 }
-.hero-arrow{
+
+.hero-arrow {
     margin-top: 50px;
     max-width: 100px;
 }
+
 /* First Block */
 
 .first-storyblock .first-story__row {
@@ -142,7 +115,7 @@ section {
 
 .first-storyblock .first-story__paragraph {
     padding: 0 15px;
-    font-family: 'Helen-Italic',sans-serif;
+    font-style:italic;
 }
 
 .first-story__row .leftside {
@@ -188,11 +161,13 @@ section {
 }
 
 .matcha-benefits .underimage-text p {
-    font-family: 'Helen-Italic',sans-serif;
+    font-style: italic;
 }
-.matcha-benefits__title{
+
+.matcha-benefits__title {
     padding: 0 15px;
 }
+
 /* matcha ingredients */
 .matcha-ingredients .matcha-ingredients__list li {
     padding: 15px 0;
@@ -216,7 +191,7 @@ section {
 
 /* turning point */
 .turning-point p {
-    font-family: 'Helen-Italic',sans-serif;
+    font-style: italic;
 }
 
 .change-is-possible .change__subtitle {
@@ -267,7 +242,7 @@ section {
 
 .offers h2 {
     text-transform: initial;
-    font-size: 9vw;
+    font-size: 7vw;
     margin-bottom: 20px;
 }
 
@@ -293,7 +268,7 @@ section {
     }
 
     h1 {
-        font-size: 5vw;
+        font-size: 4vw;
         line-height: 1em;
     }
 
@@ -306,7 +281,7 @@ section {
     }
 
     h4 {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
 
     }
 
@@ -325,10 +300,6 @@ section {
         justify-content: center;
         padding: 70px;
 
-    }
-
-    .hero-banner .hero-rightside h4 {
-        font-family: 'Helen-Bold', sans-serif;
     }
 
     /* first story */
@@ -371,7 +342,7 @@ section {
     }
 
     .turning-point .green-gradient p {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     /* matcha benefits */
@@ -405,9 +376,11 @@ section {
     .matcha-ingredients__row {
         margin: 70px 0;
     }
-    .change-is-possible{
+
+    .change-is-possible {
         margin-top: 200px;
     }
+
     .change-is-possible .change__subtitle h3 {
         font-size: 4vw;
     }
@@ -425,16 +398,18 @@ section {
         padding-right: 0;
     }
 
-   
+
     .change-is-possible .rightside {
         padding-left: 10%;
     }
+
     .offers h2 {
         font-size: 3vw;
         margin-bottom: 20px;
-        max-width: 50%;
+        max-width: 60%;
         margin: 20px auto;
     }
+
     .offers .offers-button {
         background: #27ca00;
         color: #fff;
@@ -446,23 +421,28 @@ section {
         display: block;
         margin: 0 auto;
     }
+
     .change-trustpilot__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
-    .change-is-possible .trustpilot-logo{
+
+    .change-is-possible .trustpilot-logo {
         margin-left: 100px;
     }
-    .matcha-ingredients .rightside{
+
+    .matcha-ingredients .rightside {
         padding-left: 100px;
     }
+
     .matcha-benefits .underimage-text {
         margin: 100px auto 0 auto;
         max-width: 60%;
         text-align: center;
     }
-    .matcha-ingredients__title{
+
+    .matcha-ingredients__title {
         justify-content: center;
     }
 }
@@ -476,7 +456,7 @@ section {
 
 .red-gradient p {
     margin: 0;
-    font-family: 'Helen-Italic',sans-serif;
+    font-style: italic;
 }
 
 .green-gradient {
@@ -488,6 +468,5 @@ section {
     margin: 0;
     font-style: normal;
     font-weight: 900;
-    font-family: 'Helen-Bold', sans-serif;
     font-size: 7vw;
 }
