@@ -37,6 +37,13 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Helen-Italic';
+    src: url('../fonts/Helen-Italic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 h1 {
     font-family: 'Helen-Regular';
@@ -71,6 +78,7 @@ p {
     line-height: 1.2em;
     font-size: 6vw;
     margin: 1em 0;
+    letter-spacing: 0.3px;
 }
 
 body {
@@ -134,7 +142,7 @@ section {
 
 .first-storyblock .first-story__paragraph {
     padding: 0 15px;
-    font-style: italic;
+    font-family: 'Helen-Italic',sans-serif;
 }
 
 .first-story__row .leftside {
@@ -180,7 +188,7 @@ section {
 }
 
 .matcha-benefits .underimage-text p {
-    font-style: italic;
+    font-family: 'Helen-Italic',sans-serif;
 }
 .matcha-benefits__title{
     padding: 0 15px;
@@ -208,8 +216,7 @@ section {
 
 /* turning point */
 .turning-point p {
-    font-style: italic;
-    font-weight: 600;
+    font-family: 'Helen-Italic',sans-serif;
 }
 
 .change-is-possible .change__subtitle {
@@ -469,7 +476,7 @@ section {
 
 .red-gradient p {
     margin: 0;
-    font-style: italic;
+    font-family: 'Helen-Italic',sans-serif;
 }
 
 .green-gradient {
