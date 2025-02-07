@@ -1,0 +1,470 @@
+:root {
+    --white-text: #fff;
+    --description-text: #919191;
+    --light-red: #E91B27;
+    --dark-red: #C81B24;
+    --light-bloody: #E91B27;
+    --dark-bloody: #BF151F;
+    --light-orange: #F48733;
+    --dark-orange: #D2610A;
+    --buy-button: #309833;
+    --dark-green: #3B482F;
+    --light-green: #65AD59;
+    --yellow-badge: #65AD59;
+}
+
+@font-face {
+    font-family: 'Helen-Bold';
+    src: url('../fonts/Helen-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helen-Regular';
+    src: url('../fonts/Helen-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helen-Light';
+    src: url('../fonts/Helen-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: 'Helen-Regular';
+    font-size: 9vw;
+    line-height: 1.4em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Helen-Bold', sans-serif;
+    font-size: 8.5vw;
+}
+
+h3 {
+    text-transform: initial;
+    font-size: 6.5vw;
+}
+
+h3,
+h4,
+h5 {
+    line-height: 1.2em;
+    font-family: 'Helen-Regular', sans-serif;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+p {
+    font-family: 'Helen-Light', sans-serif;
+    line-height: 1.2em;
+    font-size: 6vw;
+    margin: 1em 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'GilroyLight', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.on-desktop {
+    display: none;
+}
+
+.leftside {
+    padding: 0;
+}
+
+/* hero */
+
+.hero-banner .hero-rightside {
+    margin-top: -57%;
+    color: var(--white-text);
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.hero-banner .hero-rightside h2 {
+    margin-top: 0.5em;
+}
+
+.hero-banner .hero-rightside h4 {
+    margin-top: 0.5em;
+}
+.hero-arrow{
+    margin-top: 50px;
+    max-width: 100px;
+}
+/* First Block */
+
+.first-storyblock .first-story__row {
+    flex-direction: column-reverse;
+}
+
+.first-storyblock .first-story__text {
+    padding: 0;
+}
+
+.first-storyblock .first-story__paragraph {
+    padding: 0 15px;
+    font-style: italic;
+}
+
+.first-story__row .leftside {
+    margin-top: 50px;
+}
+
+.first-story__row .first-story__subtitle {
+    padding: 15px;
+}
+
+.first-story__row .first-story__subtitle h3 {
+    font-size: 15vw;
+    margin-bottom: 10px;
+}
+
+.first-story__row .first-story__subtitle a {
+    font-size: 10vw;
+    color: #2680EB;
+    text-decoration: underline;
+}
+
+/* matcha benefits  */
+.matcha-benefits {
+    margin-top: 100px;
+}
+
+.matcha-benefits .matcha-benefits__list li {
+    padding: 15px 0;
+    font-size: 5vw;
+    line-height: 1.3em;
+}
+
+.matcha-benefits .matcha-benefits__list li::before {
+    content: '• ';
+}
+
+.matcha-benefits h3 {
+    margin-bottom: 20px;
+}
+
+.matcha-benefits .underimage-text {
+    padding: 0 15px;
+}
+
+.matcha-benefits .underimage-text p {
+    font-style: italic;
+}
+.matcha-benefits__title{
+    padding: 0 15px;
+}
+/* matcha ingredients */
+.matcha-ingredients .matcha-ingredients__list li {
+    padding: 15px 0;
+    font-size: 5vw;
+    line-height: 1.3em;
+}
+
+.matcha-ingredients .matcha-ingredients__list li::before {
+    content: '• ';
+}
+
+.matcha-ingredients h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.matcha-ingredients .matcha-ingredients__title,
+.matcha-ingredients .matcha-ingredients__description {
+    padding: 0 15px;
+}
+
+/* turning point */
+.turning-point p {
+    font-style: italic;
+}
+
+.change-is-possible .change__subtitle {
+    margin-bottom: 50px;
+}
+
+.change-is-possible .change__subtitle h3 {
+    font-size: 15vw;
+    text-transform: uppercase;
+}
+
+.change-is-possible .change__subtitle p {
+    font-weight: bold;
+}
+
+.change-is-possible .change__subtitle a {
+    font-size: 10vw;
+    color: #2680EB;
+    text-decoration: underline;
+}
+
+.change-is-possible .leftside {
+    background: #09145c;
+    color: #fff;
+    padding: 25px;
+}
+
+.change-is-possible .leftside h4 {
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+.change-is-possible .trustpilot-rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.change-is-possible .trustpilot-logo {
+    max-width: 40%;
+}
+
+/* Offers */
+.offers {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.offers h2 {
+    text-transform: initial;
+    font-size: 9vw;
+    margin-bottom: 20px;
+}
+
+.offers .offers-button {
+    background: #27ca00;
+    color: #fff;
+    font-size: 8vw;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .on-mobile {
+        display: none;
+    }
+
+    .on-desktop {
+        display: block;
+    }
+
+    h1 {
+        font-size: 5vw;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 4.5vw;
+    }
+
+    h3 {
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 3.5vw;
+
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    /* hero */
+    .hero-banner .hero-rightside {
+        margin-top: 0;
+        text-shadow: none;
+        color: #000;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 70px;
+
+    }
+
+    .hero-banner .hero-rightside h4 {
+        font-family: 'Helen-Bold', sans-serif;
+    }
+
+    /* first story */
+    .first-storyblock .subtitle-row {
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .first-story__row .first-story__subtitle h3 {
+        font-size: 3vw;
+    }
+
+    .first-story__row .first-story__subtitle a {
+        font-size: 2vw;
+    }
+
+    .first-storyblock .first-story__row {
+        flex-direction: row;
+    }
+
+    .first-storyblock .first-story__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 10px 20px 50px;
+    }
+
+    /* turning point */
+    .turning-point {
+        margin: 150px 0;
+    }
+
+    .turning-point .container {
+        max-width: 50%;
+    }
+
+    .turning-point .green-gradient {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .turning-point .green-gradient p {
+        font-size: 2vw;
+    }
+
+    /* matcha benefits */
+    .matcha-benefits .matcha-benefits__list li {
+        font-size: 1.5vw;
+    }
+
+    .matcha-benefits .rightside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .matcha-benefits .matcha-benefits__title {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 70%;
+        justify-content: center;
+    }
+
+    .matcha-benefits .matcha-benefits__list-row {
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    /* matcha ingredients */
+    .matcha-ingredients .matcha-ingredients__list li {
+        font-size: 1.5vw;
+    }
+
+    .matcha-ingredients__row {
+        margin: 70px 0;
+    }
+
+    .change-is-possible .change__subtitle h3 {
+        font-size: 4vw;
+    }
+
+    .change-is-possible .change__subtitle a {
+        font-size: 3vw;
+    }
+
+    .change-is-possible .leftside h4 {
+        font-size: 2vw;
+    }
+
+    .change-is-possible .container {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+   
+    .change-is-possible .rightside {
+        padding-left: 10%;
+    }
+    .offers h2 {
+        font-size: 3vw;
+        margin-bottom: 20px;
+        max-width: 50%;
+        margin: 20px auto;
+    }
+    .offers .offers-button {
+        background: #27ca00;
+        color: #fff;
+        font-size: 3vw;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+    }
+    .change-trustpilot__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .change-is-possible .trustpilot-logo{
+        margin-left: 100px;
+    }
+    .matcha-ingredients .rightside{
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {}
+
+.red-gradient {
+    background: linear-gradient(to right, #ffc2c2, #fff);
+    padding: 15px;
+}
+
+.red-gradient p {
+    margin: 0;
+    font-style: italic;
+}
+
+.green-gradient {
+    background: linear-gradient(to right, #c0e2a1, #fff);
+    padding: 15px;
+}
+
+.green-gradient p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-family: 'Helen-Bold', sans-serif;
+    font-size: 7vw;
+}
